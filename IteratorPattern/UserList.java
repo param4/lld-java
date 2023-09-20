@@ -17,7 +17,7 @@ public class UserList {
     }
 
     public CustomIteratorInterface<User> getIterator() {
-        ArrayListIterator<User> myArrayListIterator = new ArrayListIterator<>(uList);
+        CustomIteratorInterface<User> myArrayListIterator = new ArrayListIterator<>(uList);
         return myArrayListIterator;
     }
 }
